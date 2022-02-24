@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: purple;
+    background-color: yellowgreen;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid lavender;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+    from{box-shadow: 1px 1px 38px slateblue;}
+    to{box-shadow: 1px 1px 38px teal;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
